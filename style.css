@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(107, 147, 192);
+}
+.container{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    border: none;
+    background: #353b48;
+    font-size:1.5em;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 250ms linear;
+}
+input{
+    /* border: none; */
+    background: white;
+    font-size:1.5em;
+    font-weight: 700;
+    margin-top: 5em;
+    padding: 1.5em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 250ms linear;
+}

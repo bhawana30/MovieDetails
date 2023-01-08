@@ -21,6 +21,7 @@ function printDetails(data){
     let result = ""
     result +=
     `<h1 class="text-center title">${data.title}</h1><br>
+    <img src = "https://image.tmdb.org/t/p/w200/${data.poster_path}">
     <li><h2 class ="rdate">Release Date : ${data.release_date}</h2></li><br>
     <li><h2 class="overview">Overview : ${data.overview}</h2></li><br>
     <li><h2 class="popularity">Popularity : ${data.popularity}</h2></li><br>
